@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Flex body to column*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+}
+
+/*Styling of list*/
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Flex the navigation link*/
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+    background-color: #1f2937;
+}
+
+/*Flex the right links*/
+.right-links {
+    display: flex;
+    gap: 16px;
+}
+
+/*Styling for right navigation links*/
+.right-links a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/*Styling for logo*/
+.logo a {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
