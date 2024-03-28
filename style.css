@@ -21,13 +21,16 @@ a {
     text-decoration: none;
 }
 
+.section-1 {
+    background-color: #1f2937;
+}
+
 /*Flex the navigation link*/
 .links {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 12px;
-    background-color: #1f2937;
 }
 
 /*Flex the right links*/
@@ -37,7 +40,8 @@ a {
 }
 
 /*Styling for right navigation links*/
-.right-links a {
+.right-links a,
+.text {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -47,5 +51,49 @@ a {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
+}
+
+/*--------Hero----------*/
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 16px;
+    height: 30vh;
+
+}
+
+/*To be changed later to align content with nav*/
+.hero-text,
+.hero-img {
+    max-width: 480px;
+}
+
+/*Placeholder for image*/
+.hero-img {
+    width: 480px;
+    height: 192px;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Styling of hero text*/
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+/*Styling for button*/
+.hero-text button {
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+    border: 0px;
 }
 
